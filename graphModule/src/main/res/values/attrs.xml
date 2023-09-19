@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="graphView">
+
+        <attr name="border_color" format="color" />
+
+        <attr name="border_anim_duration" format="integer" />
+
+
+
+    </declare-styleable>
+
+    <declare-styleable name="PieChartView">
+
+        <attr name="border_color_1" format="color" />
+
+        <attr name="border_anim_duration_1" format="integer" />
+
+
+
+    </declare-styleable>
+
+</resources>

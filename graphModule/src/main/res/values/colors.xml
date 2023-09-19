@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="graph_border">#000</color>
+    <color name="graph_bg">#B61CB3</color>
+    <color name="four" tools:ignore="MissingDefaultResource">#AED8CC</color>
+    <color name="tree" tools:ignore="MissingDefaultResource">#CD6688</color>
+    <color name="two" tools:ignore="MissingDefaultResource">#7A316F</color>
+    <color name="one" tools:ignore="MissingDefaultResource">#461959</color>
+
+</resources>

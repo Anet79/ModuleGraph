@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <com.anet.graphmodule.PieChartView
+            android:id="@+id/pie_chart"
+android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            />
+        <com.anet.graphmodule.LinearChartView
+            android:id="@+id/linearChartView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+           android:layout_weight="1"
+
+            tools:ignore="MissingConstraints" />
+
+        <com.anet.graphmodule.PieChartView
+            android:id="@+id/pie_chart_1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <com.anet.graphmodule.Graph
+            android:id="@+id/graph_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_gravity="start"
+            android:layout_margin="5dp"
+            tools:ignore="MissingConstraints"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+
+
+
+
+<!--    <com.anet.graphmodule.LinearChartView-->
+<!--        android:id="@+id/linearChartView"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/pie_chart"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.51"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
